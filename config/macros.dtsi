@@ -2,25 +2,25 @@ macro_snap_screen: macro_snap_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_snap_screen";
 #binding-cells = <0>;
-bindings = <&macro_press &kp RCMD>, <&macro_press &kp LEFT_ALT>, <&kp DOWN_ARROW>, <&macro_release &kp RCMD> <&macro_release &kp LEFT_ALT>;
+bindings = <&macro_press &kp LSHFT>, <&macro_tap &kp Z &kp M &kp K>, <&macro_release &kp LSHFT>;
 };
 macro_snap_up: macro_snap_up{
 compatible = "zmk,behavior-macro";
 label = "macro_snap_up";
 #binding-cells = <0>;
-bindings = <&macro_press &kp RCMD>, <&macro_press &kp LEFT_ALT>, <&kp UP_ARROW>,  <&macro_release &kp RCMD> <&macro_release &kp LEFT_ALT>;
+bindings = <&sk RCMD>, <&sk LEFT_ALT>, <&kp UP_ARROW>;
 };
 macro_snap_right: macro_snap_right{
 compatible = "zmk,behavior-macro";
 label = "macro_snap_right";
 #binding-cells = <0>;
-bindings = <&macro_press &kp RCMD>, <&macro_press &kp LEFT_ALT>, <&kp RIGHT_ARROW>, <&macro_release &kp RCMD> <&macro_release &kp LEFT_ALT>;
+bindings = <&sk RCMD>, <&sk LEFT_ALT>, <&kp RIGHT_ARROW>;
 };
 macro_snap_left: macro_snap_left{
 compatible = "zmk,behavior-macro";
 label = "macro_snap_left";
 #binding-cells = <0>;
-bindings = <&macro_press &kp RCMD>, <&macro_press &kp LEFT_ALT>, <&kp LEFT_ARROW>, <&macro_release &kp RCMD> <&macro_release &kp LEFT_ALT>;
+bindings = <&sk LCMD>, <&sk LEFT_ALT>, <&kp LEFT_ARROW>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
