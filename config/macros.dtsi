@@ -2,19 +2,19 @@ macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp C>;
+bindings = <&macro_press &kp RCMD>, <&macro_tap &kp C>, <&macro_release &kp RCMD>;
 };
 macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&kp X>;
+bindings = <&macro_press &kp RCMD>, <&macro_tap &kp X>, <&macro_release &kp RCMD>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp V>;
+bindings = <&macro_press &kp RCMD>, <&macro_tap &kp V>, <&macro_release &kp RCMD>;
 };
 macro_snap_screen: macro_snap_screen{
 compatible = "zmk,behavior-macro";
