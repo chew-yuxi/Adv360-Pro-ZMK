@@ -4,9 +4,9 @@ label = "macro_snap_screen";
 #binding-cells = <0>;
 bindings = <&macro_press &kp RCMD &kp LEFT_ALT>, <&macro_tap &kp DOWN_ARROW>, <&macro_release &kp RCMD &kp LEFT_ALT>;
 };
-macro_snap_maximise: macro_snap_maximise{
+macro_snap_up: macro_snap_up{
 compatible = "zmk,behavior-macro";
-label = "macro_snap_maximise";
+label = "macro_snap_up";
 #binding-cells = <0>;
 bindings = <&macro_press &kp RCMD &kp LEFT_ALT>, <&macro_tap &kp UP_ARROW>, <&macro_release &kp RCMD &kp LEFT_ALT>;
 };
