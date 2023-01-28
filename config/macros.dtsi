@@ -1,12 +1,6 @@
-macro_cut: macro_cut{
+macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
-label = "macro_cut";
-#binding-cells = <0>;
-bindings = ;
-};
-macro_copy: macro_copy{
-compatible = "zmk,behavior-macro";
-label = "macro_copy";
+label = "macro_paste";
 #binding-cells = <0>;
 bindings = ;
 };
